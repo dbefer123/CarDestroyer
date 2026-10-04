@@ -1,0 +1,10 @@
+{
+  "name": "FD-25 Hydraulics",
+  "author": "FD-25 project",
+  "version": "1.0",
+  "description": "Operator display for the Ferrovore FD-25 car dismantler: cylinder strokes, relief/stall warnings, swing and rotator angles, pump pressure and flow, engine speed, modes and quick buttons.",
+  "directive": "fd25Hud",
+  "domElement": "<fd25-hud></fd25-hud>",
+  "css": { "width": "300px", "height": "370px", "top": "120px", "right": "20px" },
+  "preserveAspectRatio": false
+}

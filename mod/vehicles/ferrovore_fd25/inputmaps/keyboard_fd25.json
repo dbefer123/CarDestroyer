@@ -1,0 +1,79 @@
+{
+ "bindings": [
+  {
+   "control": "k",
+   "action": "fd25_stick_plus"
+  },
+  {
+   "control": "i",
+   "action": "fd25_stick_minus"
+  },
+  {
+   "control": "l",
+   "action": "fd25_tilt_plus"
+  },
+  {
+   "control": "o",
+   "action": "fd25_tilt_minus"
+  },
+  {
+   "control": "y",
+   "action": "fd25_rot_plus"
+  },
+  {
+   "control": "u",
+   "action": "fd25_rot_minus"
+  },
+  {
+   "control": "g",
+   "action": "fd25_jaw_plus"
+  },
+  {
+   "control": "t",
+   "action": "fd25_jaw_minus"
+  },
+  {
+   "control": "period",
+   "action": "fd25_clamp_plus"
+  },
+  {
+   "control": "comma",
+   "action": "fd25_clamp_minus"
+  },
+  {
+   "control": "b",
+   "action": "fd25_toggle_mode"
+  },
+  {
+   "control": "shift b",
+   "action": "fd25_toggle_precision"
+  },
+  {
+   "control": "shift t",
+   "action": "fd25_cycle_power"
+  },
+  {
+   "control": "shift g",
+   "action": "fd25_toggle_level"
+  },
+  {
+   "control": "shift y",
+   "action": "fd25_pose_stow"
+  },
+  {
+   "control": "shift u",
+   "action": "fd25_pose_work"
+  },
+  {
+   "control": "shift k",
+   "action": "fd25_toggle_travel_speed"
+  },
+  {
+   "control": "shift o",
+   "action": "fd25_toggle_beacon"
+  }
+ ],
+ "name": "Keyboard",
+ "devicetype": "keyboard",
+ "version": 1
+}

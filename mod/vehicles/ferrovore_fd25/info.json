@@ -1,0 +1,75 @@
+{
+  "Name": "FD-25 Car Dismantler",
+  "Brand": "Ferrovore",
+  "Author": "FD-25 project (procedurally generated)",
+  "Country": "Fictional",
+  "Type": "Truck",
+  "Body Style": "Excavator",
+  "Derby Class": "Heavy",
+  "default_pc": "fd25_dismantler",
+  "defaultPaintName1": "Construction Yellow",
+  "defaultPaintName2": "Construction Yellow",
+  "defaultPaintName3": "Industrial Grey",
+  "paints": {
+    "Construction Yellow": {
+      "baseColor": [
+        0.96,
+        0.66,
+        0.05,
+        1.2
+      ],
+      "clearcoat": 0.55,
+      "clearcoatRoughness": 0.22,
+      "metallic": 0.0,
+      "roughness": 0.55
+    },
+    "Safety Orange": {
+      "baseColor": [
+        0.95,
+        0.38,
+        0.05,
+        1.2
+      ],
+      "clearcoat": 0.55,
+      "clearcoatRoughness": 0.22,
+      "metallic": 0.0,
+      "roughness": 0.55
+    },
+    "Industrial Grey": {
+      "baseColor": [
+        0.42,
+        0.44,
+        0.45,
+        1.2
+      ],
+      "clearcoat": 0.5,
+      "clearcoatRoughness": 0.25,
+      "metallic": 0.15,
+      "roughness": 0.55
+    },
+    "Recycling Green": {
+      "baseColor": [
+        0.12,
+        0.42,
+        0.2,
+        1.2
+      ],
+      "clearcoat": 0.5,
+      "clearcoatRoughness": 0.25,
+      "metallic": 0.0,
+      "roughness": 0.55
+    },
+    "Weathered Yellow": {
+      "baseColor": [
+        0.78,
+        0.6,
+        0.2,
+        1.2
+      ],
+      "clearcoat": 0.08,
+      "clearcoatRoughness": 0.6,
+      "metallic": 0.0,
+      "roughness": 0.8
+    }
+  }
+}

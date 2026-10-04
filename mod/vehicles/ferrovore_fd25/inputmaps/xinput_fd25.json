@@ -1,0 +1,51 @@
+{
+ "bindings": [
+  {
+   "control": "thumbly",
+   "action": "fd25_stick_axis"
+  },
+  {
+   "control": "btn_l",
+   "action": "fd25_rot_plus"
+  },
+  {
+   "control": "btn_r",
+   "action": "fd25_rot_minus"
+  },
+  {
+   "control": "btn_a",
+   "action": "fd25_jaw_plus"
+  },
+  {
+   "control": "btn_b",
+   "action": "fd25_jaw_minus"
+  },
+  {
+   "control": "dpadu",
+   "action": "fd25_tilt_minus"
+  },
+  {
+   "control": "dpadd",
+   "action": "fd25_tilt_plus"
+  },
+  {
+   "control": "dpadl",
+   "action": "fd25_clamp_minus"
+  },
+  {
+   "control": "dpadr",
+   "action": "fd25_clamp_plus"
+  },
+  {
+   "control": "btn_y",
+   "action": "fd25_toggle_mode"
+  },
+  {
+   "control": "btn_x",
+   "action": "fd25_toggle_precision"
+  }
+ ],
+ "name": "XInput Controller",
+ "devicetype": "xinput",
+ "version": 1
+}

@@ -1,0 +1,52 @@
+{
+  "format": 2,
+  "model": "ferrovore_fd25",
+  "parts": {
+    "fd25_superstructure": "fd25_superstructure",
+    "fd25_cab": "fd25_cab_standard",
+    "fd25_boom": "fd25_boom_mono",
+    "fd25_stick": "fd25_stick_hd",
+    "fd25_attachment": "fd25_dismantling_shear",
+    "fd25_clamparm": "fd25_clamparm",
+    "fd25_hydraulics": "fd25_hydraulics_standard"
+  },
+  "paints": [
+    {
+      "baseColor": [
+        0.96,
+        0.66,
+        0.05,
+        1.2
+      ],
+      "clearcoat": 0.55,
+      "clearcoatRoughness": 0.22,
+      "metallic": 0.0,
+      "roughness": 0.55
+    },
+    {
+      "baseColor": [
+        0.96,
+        0.66,
+        0.05,
+        1.2
+      ],
+      "clearcoat": 0.55,
+      "clearcoatRoughness": 0.22,
+      "metallic": 0.0,
+      "roughness": 0.55
+    },
+    {
+      "baseColor": [
+        0.42,
+        0.44,
+        0.45,
+        1.2
+      ],
+      "clearcoat": 0.5,
+      "clearcoatRoughness": 0.25,
+      "metallic": 0.15,
+      "roughness": 0.55
+    }
+  ],
+  "vars": {}
+}

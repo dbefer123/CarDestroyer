@@ -1,0 +1,322 @@
+{
+"fd25_hydraulics_standard": {
+    "information": {"authors":"CarDestroyer project", "name":"Standard Hydraulics", "value":0},
+    "slotType": "fd25_hydraulics",
+    "controller": [
+        ["fileName"],
+        ["fd25Hydraulics", {"name":"fd25Hydraulics"}]
+    ],
+    "fd25Hydraulics": {
+        "fileName": "fd25Hydraulics",
+        "name": "fd25Hydraulics",
+        "pumpFlowMax": 0.0072,
+        "idleRPM": 900,
+        "workRPM": 1950,
+        "maxRPM": 2050,
+        "precisionScale": 0.35,
+        "spoolTau": 0.12,
+        "cushion": 0.05,
+        "travelSpeedLow": 0.8333,
+        "travelSpeedHigh": 1.5278,
+        "trackDirection": 1,
+        "slewSign": 1,
+        "rotSign": 1,
+        "autoCalibrate": true,
+        "loadHolding": false,
+        "holdTau": 1.5,
+        "levelGain": 3.0,
+        "levelRateTau": 0.08,
+        "stickAxis": [
+            "bnL",
+            "snL"
+        ],
+        "antiWindup": 0.035,
+        "slewAxis": [
+            "sl0",
+            "sl1"
+        ],
+        "slewRefUC": "sst0",
+        "slewRefSS": "ssr0",
+        "rotAxis": [
+            "rt0",
+            "rt1"
+        ],
+        "rotRefStator": "rst0",
+        "rotRefHead": "hr0",
+        "attAxis": [
+            "snL",
+            "snR"
+        ],
+        "attPitchNodes": [
+            "rt0",
+            "rt1"
+        ],
+        "soundNodeEngine": "hd0",
+        "soundNodePump": "sd23t",
+        "soundNodeTrack": "uc_ref",
+        "beaconElectrics": "lightbar",
+        "shoePitch": 0.19,
+        "idlerRadius": 0.36,
+        "sprocketRadius": 0.3931,
+        "tiltLengthPerRad": -0.4592,
+        "soundDir": "vehicles/ferrovore_fd25/sounds/",
+        "pumpEvent": "event:>Vehicle>Hydraulics>Pump_Big",
+        "travelAlarmEvent": "event:>Vehicle>Electrics>Reverse>Beep_01",
+        "channels": {
+            "boom": {
+                "type": "linear",
+                "electrics": "fd_boom",
+                "lengthMin": 1.7614,
+                "lengthMax": 2.6897,
+                "lengthSpawn": 2.4562,
+                "maxSpeed": 0.34,
+                "pistonArea": 0.0286,
+                "rodArea": 0.0145,
+                "accel": 0.544
+            },
+            "stick": {
+                "type": "linear",
+                "electrics": "fd_stick",
+                "lengthMin": 2.5755,
+                "lengthMax": 3.6757,
+                "lengthSpawn": 3.5734,
+                "maxSpeed": 0.42,
+                "pistonArea": 0.0154,
+                "rodArea": 0.0075,
+                "accel": 0.672
+            },
+            "tilt": {
+                "type": "linear",
+                "electrics": "fd_tilt",
+                "lengthMin": 1.6089,
+                "lengthMax": 2.5508,
+                "lengthSpawn": 1.9648,
+                "maxSpeed": 0.4,
+                "pistonArea": 0.0123,
+                "rodArea": 0.0059,
+                "accel": 0.64
+            },
+            "jaw": {
+                "type": "linear",
+                "electrics": "fd_jaw",
+                "lengthMin": 0.5809,
+                "lengthMax": 0.822,
+                "lengthSpawn": 0.7205,
+                "maxSpeed": 0.22,
+                "pistonArea": 0.0314,
+                "rodArea": 0.0219,
+                "accel": 0.352
+            },
+            "clamp": {
+                "type": "linear",
+                "electrics": "fd_clamp",
+                "lengthMin": 1.2522,
+                "lengthMax": 1.5954,
+                "lengthSpawn": 1.5134,
+                "maxSpeed": 0.16,
+                "pistonArea": 0.0308,
+                "rodArea": 0.0181,
+                "accel": 0.256
+            },
+            "slew": {
+                "type": "angular",
+                "electrics": "fd_slew",
+                "angleLimit": 2.9671,
+                "maxSpeed": 0.8,
+                "accel": 0.75,
+                "decel": 1.1,
+                "flowCoef": 0.0018
+            },
+            "rot": {
+                "type": "angular",
+                "electrics": "fd_rot",
+                "angleLimit": 2.9671,
+                "maxSpeed": 0.75,
+                "accel": 2.2,
+                "decel": 2.64,
+                "flowCoef": 0.0009
+            }
+        },
+        "poses": {
+            "stow": {
+                "boom": 0.62,
+                "stick": 0.97,
+                "tilt": 0.15,
+                "jaw": 0.95,
+                "clamp": 0.0,
+                "slew": 0.0,
+                "rot": 0.0
+            },
+            "work": {
+                "boom": 0.75,
+                "stick": 0.88,
+                "tilt": 0.38,
+                "jaw": 0.35,
+                "clamp": 0.75,
+                "slew": 0.0,
+                "rot": 0.0
+            }
+        }
+    }
+},
+"fd25_hydraulics_arcade": {
+    "information": {"authors":"CarDestroyer project", "name":"Arcade Hydraulics (fast)", "value":0},
+    "slotType": "fd25_hydraulics",
+    "controller": [
+        ["fileName"],
+        ["fd25Hydraulics", {"name":"fd25Hydraulics"}]
+    ],
+    "fd25Hydraulics": {
+        "fileName": "fd25Hydraulics",
+        "name": "fd25Hydraulics",
+        "pumpFlowMax": 0.0115,
+        "idleRPM": 900,
+        "workRPM": 1950,
+        "maxRPM": 2050,
+        "precisionScale": 0.35,
+        "spoolTau": 0.12,
+        "cushion": 0.05,
+        "travelSpeedLow": 0.8333,
+        "travelSpeedHigh": 1.5278,
+        "trackDirection": 1,
+        "slewSign": 1,
+        "rotSign": 1,
+        "autoCalibrate": true,
+        "loadHolding": false,
+        "holdTau": 1.5,
+        "levelGain": 3.0,
+        "levelRateTau": 0.08,
+        "stickAxis": [
+            "bnL",
+            "snL"
+        ],
+        "antiWindup": 0.035,
+        "slewAxis": [
+            "sl0",
+            "sl1"
+        ],
+        "slewRefUC": "sst0",
+        "slewRefSS": "ssr0",
+        "rotAxis": [
+            "rt0",
+            "rt1"
+        ],
+        "rotRefStator": "rst0",
+        "rotRefHead": "hr0",
+        "attAxis": [
+            "snL",
+            "snR"
+        ],
+        "attPitchNodes": [
+            "rt0",
+            "rt1"
+        ],
+        "soundNodeEngine": "hd0",
+        "soundNodePump": "sd23t",
+        "soundNodeTrack": "uc_ref",
+        "beaconElectrics": "lightbar",
+        "shoePitch": 0.19,
+        "idlerRadius": 0.36,
+        "sprocketRadius": 0.3931,
+        "tiltLengthPerRad": -0.4592,
+        "soundDir": "vehicles/ferrovore_fd25/sounds/",
+        "pumpEvent": "event:>Vehicle>Hydraulics>Pump_Big",
+        "travelAlarmEvent": "event:>Vehicle>Electrics>Reverse>Beep_01",
+        "channels": {
+            "boom": {
+                "type": "linear",
+                "electrics": "fd_boom",
+                "lengthMin": 1.7614,
+                "lengthMax": 2.6897,
+                "lengthSpawn": 2.4562,
+                "maxSpeed": 0.544,
+                "pistonArea": 0.0286,
+                "rodArea": 0.0145,
+                "accel": 0.816
+            },
+            "stick": {
+                "type": "linear",
+                "electrics": "fd_stick",
+                "lengthMin": 2.5755,
+                "lengthMax": 3.6757,
+                "lengthSpawn": 3.5734,
+                "maxSpeed": 0.672,
+                "pistonArea": 0.0154,
+                "rodArea": 0.0075,
+                "accel": 1.008
+            },
+            "tilt": {
+                "type": "linear",
+                "electrics": "fd_tilt",
+                "lengthMin": 1.6089,
+                "lengthMax": 2.5508,
+                "lengthSpawn": 1.9648,
+                "maxSpeed": 0.64,
+                "pistonArea": 0.0123,
+                "rodArea": 0.0059,
+                "accel": 0.96
+            },
+            "jaw": {
+                "type": "linear",
+                "electrics": "fd_jaw",
+                "lengthMin": 0.5809,
+                "lengthMax": 0.822,
+                "lengthSpawn": 0.7205,
+                "maxSpeed": 0.352,
+                "pistonArea": 0.0314,
+                "rodArea": 0.0219,
+                "accel": 0.528
+            },
+            "clamp": {
+                "type": "linear",
+                "electrics": "fd_clamp",
+                "lengthMin": 1.2522,
+                "lengthMax": 1.5954,
+                "lengthSpawn": 1.5134,
+                "maxSpeed": 0.256,
+                "pistonArea": 0.0308,
+                "rodArea": 0.0181,
+                "accel": 0.384
+            },
+            "slew": {
+                "type": "angular",
+                "electrics": "fd_slew",
+                "angleLimit": 2.9671,
+                "maxSpeed": 1.2,
+                "accel": 1.2,
+                "decel": 1.76,
+                "flowCoef": 0.0018
+            },
+            "rot": {
+                "type": "angular",
+                "electrics": "fd_rot",
+                "angleLimit": 2.9671,
+                "maxSpeed": 1.125,
+                "accel": 3.3,
+                "decel": 3.96,
+                "flowCoef": 0.0009
+            }
+        },
+        "poses": {
+            "stow": {
+                "boom": 0.62,
+                "stick": 0.97,
+                "tilt": 0.15,
+                "jaw": 0.95,
+                "clamp": 0.0,
+                "slew": 0.0,
+                "rot": 0.0
+            },
+            "work": {
+                "boom": 0.75,
+                "stick": 0.88,
+                "tilt": 0.38,
+                "jaw": 0.35,
+                "clamp": 0.75,
+                "slew": 0.0,
+                "rot": 0.0
+            }
+        }
+    }
+}
+}

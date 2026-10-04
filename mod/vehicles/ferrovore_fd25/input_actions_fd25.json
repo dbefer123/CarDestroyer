@@ -1,0 +1,259 @@
+{
+ "fd25_boom_plus": {
+  "cat": "vehicle_specific",
+  "order": 1,
+  "ctx": "vlua",
+  "onChange": "input.event('fd25BoomPlus', VALUE, FILTERTYPE)",
+  "title": "FD-25: Boom raise",
+  "desc": "Ferrovore FD-25 hydraulics - boom raise"
+ },
+ "fd25_boom_minus": {
+  "cat": "vehicle_specific",
+  "order": 2,
+  "ctx": "vlua",
+  "onChange": "input.event('fd25BoomMinus', VALUE, FILTERTYPE)",
+  "title": "FD-25: Boom lower",
+  "desc": "Ferrovore FD-25 hydraulics - boom lower"
+ },
+ "fd25_boom_axis": {
+  "cat": "vehicle_specific",
+  "order": 3,
+  "ctx": "vlua",
+  "isCentered": true,
+  "onChange": "input.event('fd25BoomAxis', VALUE, FILTERTYPE)",
+  "title": "FD-25: Boom (analog axis, + raises)",
+  "desc": "Bind a joystick / gamepad axis for proportional control"
+ },
+ "fd25_slew_plus": {
+  "cat": "vehicle_specific",
+  "order": 4,
+  "ctx": "vlua",
+  "onChange": "input.event('fd25SlewPlus', VALUE, FILTERTYPE)",
+  "title": "FD-25: Swing left",
+  "desc": "Ferrovore FD-25 hydraulics - swing left"
+ },
+ "fd25_slew_minus": {
+  "cat": "vehicle_specific",
+  "order": 5,
+  "ctx": "vlua",
+  "onChange": "input.event('fd25SlewMinus', VALUE, FILTERTYPE)",
+  "title": "FD-25: Swing right",
+  "desc": "Ferrovore FD-25 hydraulics - swing right"
+ },
+ "fd25_slew_axis": {
+  "cat": "vehicle_specific",
+  "order": 6,
+  "ctx": "vlua",
+  "isCentered": true,
+  "onChange": "input.event('fd25SlewAxis', VALUE, FILTERTYPE)",
+  "title": "FD-25: Swing (analog axis, + = left)",
+  "desc": "Bind a joystick / gamepad axis for proportional control"
+ },
+ "fd25_stick_plus": {
+  "cat": "vehicle_specific",
+  "order": 7,
+  "ctx": "vlua",
+  "onChange": "input.event('fd25StickPlus', VALUE, FILTERTYPE)",
+  "title": "FD-25: Stick in (pull towards cab)",
+  "desc": "Ferrovore FD-25 hydraulics - stick in (pull towards cab)"
+ },
+ "fd25_stick_minus": {
+  "cat": "vehicle_specific",
+  "order": 8,
+  "ctx": "vlua",
+  "onChange": "input.event('fd25StickMinus', VALUE, FILTERTYPE)",
+  "title": "FD-25: Stick out (push away)",
+  "desc": "Ferrovore FD-25 hydraulics - stick out (push away)"
+ },
+ "fd25_stick_axis": {
+  "cat": "vehicle_specific",
+  "order": 9,
+  "ctx": "vlua",
+  "isCentered": true,
+  "onChange": "input.event('fd25StickAxis', VALUE, FILTERTYPE)",
+  "title": "FD-25: Stick (analog axis, + = in)",
+  "desc": "Bind a joystick / gamepad axis for proportional control"
+ },
+ "fd25_tilt_plus": {
+  "cat": "vehicle_specific",
+  "order": 10,
+  "ctx": "vlua",
+  "onChange": "input.event('fd25TiltPlus', VALUE, FILTERTYPE)",
+  "title": "FD-25: Claw curl in",
+  "desc": "Ferrovore FD-25 hydraulics - claw curl in"
+ },
+ "fd25_tilt_minus": {
+  "cat": "vehicle_specific",
+  "order": 11,
+  "ctx": "vlua",
+  "onChange": "input.event('fd25TiltMinus', VALUE, FILTERTYPE)",
+  "title": "FD-25: Claw curl out",
+  "desc": "Ferrovore FD-25 hydraulics - claw curl out"
+ },
+ "fd25_tilt_axis": {
+  "cat": "vehicle_specific",
+  "order": 12,
+  "ctx": "vlua",
+  "isCentered": true,
+  "onChange": "input.event('fd25TiltAxis', VALUE, FILTERTYPE)",
+  "title": "FD-25: Claw tilt (analog axis, + = curl in)",
+  "desc": "Bind a joystick / gamepad axis for proportional control"
+ },
+ "fd25_rot_plus": {
+  "cat": "vehicle_specific",
+  "order": 13,
+  "ctx": "vlua",
+  "onChange": "input.event('fd25RotPlus', VALUE, FILTERTYPE)",
+  "title": "FD-25: Rotate claw counter-clockwise",
+  "desc": "Ferrovore FD-25 hydraulics - rotate claw counter-clockwise"
+ },
+ "fd25_rot_minus": {
+  "cat": "vehicle_specific",
+  "order": 14,
+  "ctx": "vlua",
+  "onChange": "input.event('fd25RotMinus', VALUE, FILTERTYPE)",
+  "title": "FD-25: Rotate claw clockwise",
+  "desc": "Ferrovore FD-25 hydraulics - rotate claw clockwise"
+ },
+ "fd25_rot_axis": {
+  "cat": "vehicle_specific",
+  "order": 15,
+  "ctx": "vlua",
+  "isCentered": true,
+  "onChange": "input.event('fd25RotAxis', VALUE, FILTERTYPE)",
+  "title": "FD-25: Claw rotation (analog axis)",
+  "desc": "Bind a joystick / gamepad axis for proportional control"
+ },
+ "fd25_jaw_plus": {
+  "cat": "vehicle_specific",
+  "order": 16,
+  "ctx": "vlua",
+  "onChange": "input.event('fd25JawPlus', VALUE, FILTERTYPE)",
+  "title": "FD-25: Jaw close / grip",
+  "desc": "Ferrovore FD-25 hydraulics - jaw close / grip"
+ },
+ "fd25_jaw_minus": {
+  "cat": "vehicle_specific",
+  "order": 17,
+  "ctx": "vlua",
+  "onChange": "input.event('fd25JawMinus', VALUE, FILTERTYPE)",
+  "title": "FD-25: Jaw open",
+  "desc": "Ferrovore FD-25 hydraulics - jaw open"
+ },
+ "fd25_jaw_axis": {
+  "cat": "vehicle_specific",
+  "order": 18,
+  "ctx": "vlua",
+  "isCentered": true,
+  "onChange": "input.event('fd25JawAxis', VALUE, FILTERTYPE)",
+  "title": "FD-25: Jaw (analog axis, + = close)",
+  "desc": "Bind a joystick / gamepad axis for proportional control"
+ },
+ "fd25_clamp_plus": {
+  "cat": "vehicle_specific",
+  "order": 19,
+  "ctx": "vlua",
+  "onChange": "input.event('fd25ClampPlus', VALUE, FILTERTYPE)",
+  "title": "FD-25: Clamp arm press down",
+  "desc": "Ferrovore FD-25 hydraulics - clamp arm press down"
+ },
+ "fd25_clamp_minus": {
+  "cat": "vehicle_specific",
+  "order": 20,
+  "ctx": "vlua",
+  "onChange": "input.event('fd25ClampMinus', VALUE, FILTERTYPE)",
+  "title": "FD-25: Clamp arm raise",
+  "desc": "Ferrovore FD-25 hydraulics - clamp arm raise"
+ },
+ "fd25_clamp_axis": {
+  "cat": "vehicle_specific",
+  "order": 21,
+  "ctx": "vlua",
+  "isCentered": true,
+  "onChange": "input.event('fd25ClampAxis', VALUE, FILTERTYPE)",
+  "title": "FD-25: Clamp arm (analog axis, + = down)",
+  "desc": "Bind a joystick / gamepad axis for proportional control"
+ },
+ "fd25_trackL_axis": {
+  "cat": "vehicle_specific",
+  "order": 22,
+  "ctx": "vlua",
+  "isCentered": true,
+  "onChange": "input.event('fd25TrackLAxis', VALUE, FILTERTYPE)",
+  "title": "FD-25: Left track pedal (analog, + = forward)",
+  "desc": "Excavator-style per-track travel pedal / lever"
+ },
+ "fd25_trackR_axis": {
+  "cat": "vehicle_specific",
+  "order": 23,
+  "ctx": "vlua",
+  "isCentered": true,
+  "onChange": "input.event('fd25TrackRAxis', VALUE, FILTERTYPE)",
+  "title": "FD-25: Right track pedal (analog, + = forward)",
+  "desc": "Excavator-style per-track travel pedal / lever"
+ },
+ "fd25_toggle_mode": {
+  "cat": "vehicle_specific",
+  "order": 24,
+  "ctx": "vlua",
+  "onDown": "controller.getControllerSafe('fd25Hydraulics').toggleMode()",
+  "title": "FD-25: Work / Travel mode",
+  "desc": "Switch between WORK (arrows swing + boom) and TRAVEL (arrows drive the tracks)"
+ },
+ "fd25_toggle_precision": {
+  "cat": "vehicle_specific",
+  "order": 25,
+  "ctx": "vlua",
+  "onDown": "controller.getControllerSafe('fd25Hydraulics').togglePrecision()",
+  "title": "FD-25: Precision control",
+  "desc": "Slow, fine hydraulic control for delicate dismantling"
+ },
+ "fd25_cycle_power": {
+  "cat": "vehicle_specific",
+  "order": 26,
+  "ctx": "vlua",
+  "onDown": "controller.getControllerSafe('fd25Hydraulics').cyclePower()",
+  "title": "FD-25: Power mode",
+  "desc": "Cycle ECO / STANDARD / POWER engine & pump modes"
+ },
+ "fd25_toggle_level": {
+  "cat": "vehicle_specific",
+  "order": 27,
+  "ctx": "vlua",
+  "onDown": "controller.getControllerSafe('fd25Hydraulics').toggleLevelAssist()",
+  "title": "FD-25: Claw level assist",
+  "desc": "Keep the claw angle constant while the boom and stick move"
+ },
+ "fd25_pose_stow": {
+  "cat": "vehicle_specific",
+  "order": 28,
+  "ctx": "vlua",
+  "onDown": "controller.getControllerSafe('fd25Hydraulics').poseStow()",
+  "title": "FD-25: Pose: stow / transport",
+  "desc": "Automatically fold the arm into transport position"
+ },
+ "fd25_pose_work": {
+  "cat": "vehicle_specific",
+  "order": 29,
+  "ctx": "vlua",
+  "onDown": "controller.getControllerSafe('fd25Hydraulics').poseWork()",
+  "title": "FD-25: Pose: work ready",
+  "desc": "Automatically move the arm into the dismantling position"
+ },
+ "fd25_toggle_travel_speed": {
+  "cat": "vehicle_specific",
+  "order": 30,
+  "ctx": "vlua",
+  "onDown": "controller.getControllerSafe('fd25Hydraulics').toggleTravelSpeed()",
+  "title": "FD-25: Travel speed (hare / tortoise)",
+  "desc": "Toggle LOW / HIGH travel speed"
+ },
+ "fd25_toggle_beacon": {
+  "cat": "vehicle_specific",
+  "order": 31,
+  "ctx": "vlua",
+  "onDown": "controller.getControllerSafe('fd25Hydraulics').toggleBeacon()",
+  "title": "FD-25: Amber beacon",
+  "desc": "Switch the rotating amber warning beacon on the cab roof"
+ }
+}

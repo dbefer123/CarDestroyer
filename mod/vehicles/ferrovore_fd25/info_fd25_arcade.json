@@ -1,0 +1,38 @@
+{
+  "Configuration": "Car Dismantler (Arcade Hydraulics)",
+  "Description": "Same machine with roughly doubled hydraulic speeds and gentler limits - for fun, not realism.",
+  "Config Type": "Factory",
+  "Value": 385000,
+  "Population": 1,
+  "Drivetrain": "Tracked (hydrostatic)",
+  "Transmission": "Hydrostatic",
+  "Fuel Type": "Diesel",
+  "Propulsion": "ICE",
+  "Induction Type": "Turbo",
+  "Power": 174,
+  "PowerPeakRPM": "1950 - 2050",
+  "Torque": 790,
+  "TorquePeakRPM": "1400 - 1600",
+  "Weight": 27894,
+  "Top Speed": 1.528,
+  "Off-Road Score": 95,
+  "Years": {
+    "min": 2024,
+    "max": 2026
+  },
+  "BoundingBox": [
+    [
+      -1.485,
+      -6.023,
+      0.0
+    ],
+    [
+      1.485,
+      2.75,
+      5.979
+    ]
+  ],
+  "defaultPaintName1": "Recycling Green",
+  "defaultPaintName2": "Recycling Green",
+  "defaultPaintName3": "Industrial Grey"
+}

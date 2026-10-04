@@ -1,0 +1,528 @@
+{
+ "fd25_paint_upper": {
+  "name": "fd25_paint_upper",
+  "mapTo": "fd25_paint_upper",
+  "class": "Material",
+  "Stages": [
+   {
+    "baseColorMap": "/vehicles/ferrovore_fd25/textures/fd25_upper_under.color.png",
+    "metallicMap": "/vehicles/ferrovore_fd25/textures/fd25_upper_m.data.png",
+    "roughnessMap": "/vehicles/ferrovore_fd25/textures/fd25_upper_r.data.png",
+    "normalMap": "/vehicles/ferrovore_fd25/textures/fd25_upper_nm.normal.png",
+    "ambientOcclusionMap": "/vehicles/ferrovore_fd25/textures/fd25_upper_ao.data.png"
+   },
+   {
+    "baseColorMap": "/vehicles/ferrovore_fd25/textures/fd25_upper_paint.color.png",
+    "instanceBaseColor": true,
+    "opacityMap": "/vehicles/ferrovore_fd25/textures/fd25_upper_paint_o.data.png",
+    "roughnessMap": "/vehicles/ferrovore_fd25/textures/fd25_upper_paint_r.data.png",
+    "metallicFactor": 0,
+    "clearCoatFactor": 0.35,
+    "clearCoatRoughnessFactor": 0.35,
+    "detailNormalMap": "/vehicles/ferrovore_fd25/textures/fd25_detail_paint_nm.normal.png",
+    "detailNormalMapStrength": 0.35,
+    "detailScale": [
+     3,
+     3
+    ],
+    "normalDetailMapUseUV": 1,
+    "normalMap": "/vehicles/ferrovore_fd25/textures/fd25_upper_nm.normal.png",
+    "ambientOcclusionMap": "/vehicles/ferrovore_fd25/textures/fd25_upper_ao.data.png"
+   },
+   {
+    "baseColorMap": "/vehicles/ferrovore_fd25/textures/fd25_upper_dirt.color.png",
+    "opacityMap": "/vehicles/ferrovore_fd25/textures/fd25_upper_dirt_o.data.png",
+    "roughnessFactor": 0.93,
+    "metallicFactor": 0,
+    "normalMap": "/vehicles/ferrovore_fd25/textures/fd25_upper_nm.normal.png",
+    "ambientOcclusionMap": "/vehicles/ferrovore_fd25/textures/fd25_upper_ao.data.png"
+   },
+   {}
+  ],
+  "dynamicCubemap": true,
+  "materialTag0": "beamng",
+  "materialTag1": "vehicle",
+  "version": 1.5,
+  "activeLayers": 3
+ },
+ "fd25_paint_arm": {
+  "name": "fd25_paint_arm",
+  "mapTo": "fd25_paint_arm",
+  "class": "Material",
+  "Stages": [
+   {
+    "baseColorMap": "/vehicles/ferrovore_fd25/textures/fd25_arm_under.color.png",
+    "metallicMap": "/vehicles/ferrovore_fd25/textures/fd25_arm_m.data.png",
+    "roughnessMap": "/vehicles/ferrovore_fd25/textures/fd25_arm_r.data.png",
+    "normalMap": "/vehicles/ferrovore_fd25/textures/fd25_arm_nm.normal.png",
+    "ambientOcclusionMap": "/vehicles/ferrovore_fd25/textures/fd25_arm_ao.data.png"
+   },
+   {
+    "baseColorMap": "/vehicles/ferrovore_fd25/textures/fd25_arm_paint.color.png",
+    "instanceBaseColor": true,
+    "opacityMap": "/vehicles/ferrovore_fd25/textures/fd25_arm_paint_o.data.png",
+    "roughnessMap": "/vehicles/ferrovore_fd25/textures/fd25_arm_paint_r.data.png",
+    "metallicFactor": 0,
+    "clearCoatFactor": 0.35,
+    "clearCoatRoughnessFactor": 0.35,
+    "detailNormalMap": "/vehicles/ferrovore_fd25/textures/fd25_detail_paint_nm.normal.png",
+    "detailNormalMapStrength": 0.35,
+    "detailScale": [
+     3,
+     3
+    ],
+    "normalDetailMapUseUV": 1,
+    "normalMap": "/vehicles/ferrovore_fd25/textures/fd25_arm_nm.normal.png",
+    "ambientOcclusionMap": "/vehicles/ferrovore_fd25/textures/fd25_arm_ao.data.png"
+   },
+   {
+    "baseColorMap": "/vehicles/ferrovore_fd25/textures/fd25_arm_dirt.color.png",
+    "opacityMap": "/vehicles/ferrovore_fd25/textures/fd25_arm_dirt_o.data.png",
+    "roughnessFactor": 0.93,
+    "metallicFactor": 0,
+    "normalMap": "/vehicles/ferrovore_fd25/textures/fd25_arm_nm.normal.png",
+    "ambientOcclusionMap": "/vehicles/ferrovore_fd25/textures/fd25_arm_ao.data.png"
+   },
+   {}
+  ],
+  "dynamicCubemap": true,
+  "materialTag0": "beamng",
+  "materialTag1": "vehicle",
+  "version": 1.5,
+  "activeLayers": 3
+ },
+ "fd25_attachment": {
+  "name": "fd25_attachment",
+  "mapTo": "fd25_attachment",
+  "class": "Material",
+  "Stages": [
+   {
+    "baseColorMap": "/vehicles/ferrovore_fd25/textures/fd25_att_b.color.png",
+    "metallicMap": "/vehicles/ferrovore_fd25/textures/fd25_att_m.data.png",
+    "roughnessMap": "/vehicles/ferrovore_fd25/textures/fd25_att_r.data.png",
+    "normalMap": "/vehicles/ferrovore_fd25/textures/fd25_att_nm.normal.png",
+    "ambientOcclusionMap": "/vehicles/ferrovore_fd25/textures/fd25_att_ao.data.png",
+    "detailNormalMap": "/vehicles/ferrovore_fd25/textures/fd25_detail_paint_nm.normal.png",
+    "detailNormalMapStrength": 0.3,
+    "detailScale": [
+     3,
+     3
+    ],
+    "normalDetailMapUseUV": 1
+   },
+   {},
+   {},
+   {}
+  ],
+  "dynamicCubemap": true,
+  "materialTag0": "beamng",
+  "materialTag1": "vehicle",
+  "version": 1.5
+ },
+ "fd25_undercarriage": {
+  "name": "fd25_undercarriage",
+  "mapTo": "fd25_undercarriage",
+  "class": "Material",
+  "Stages": [
+   {
+    "baseColorMap": "/vehicles/ferrovore_fd25/textures/fd25_uc_b.color.png",
+    "metallicMap": "/vehicles/ferrovore_fd25/textures/fd25_uc_m.data.png",
+    "roughnessMap": "/vehicles/ferrovore_fd25/textures/fd25_uc_r.data.png",
+    "normalMap": "/vehicles/ferrovore_fd25/textures/fd25_uc_nm.normal.png",
+    "ambientOcclusionMap": "/vehicles/ferrovore_fd25/textures/fd25_uc_ao.data.png",
+    "detailNormalMap": "/vehicles/ferrovore_fd25/textures/fd25_detail_paint_nm.normal.png",
+    "detailNormalMapStrength": 0.3,
+    "detailScale": [
+     3,
+     3
+    ],
+    "normalDetailMapUseUV": 1
+   },
+   {},
+   {},
+   {}
+  ],
+  "dynamicCubemap": true,
+  "materialTag0": "beamng",
+  "materialTag1": "vehicle",
+  "version": 1.5
+ },
+ "fd25_interior": {
+  "name": "fd25_interior",
+  "mapTo": "fd25_interior",
+  "class": "Material",
+  "Stages": [
+   {
+    "baseColorMap": "/vehicles/ferrovore_fd25/textures/fd25_int_b.color.png",
+    "roughnessMap": "/vehicles/ferrovore_fd25/textures/fd25_int_r.data.png",
+    "normalMap": "/vehicles/ferrovore_fd25/textures/fd25_int_nm.normal.png",
+    "ambientOcclusionMap": "/vehicles/ferrovore_fd25/textures/fd25_int_ao.data.png",
+    "metallicFactor": 0
+   },
+   {},
+   {},
+   {}
+  ],
+  "dynamicCubemap": true,
+  "materialTag0": "beamng",
+  "materialTag1": "vehicle",
+  "version": 1.5
+ },
+ "fd25_steel": {
+  "name": "fd25_steel",
+  "mapTo": "fd25_steel",
+  "class": "Material",
+  "Stages": [
+   {
+    "baseColorMap": "/vehicles/ferrovore_fd25/textures/fd25_steel_b.color.png",
+    "roughnessMap": "/vehicles/ferrovore_fd25/textures/fd25_steel_r.data.png",
+    "metallicMap": "/vehicles/ferrovore_fd25/textures/fd25_steel_m.data.png",
+    "normalMap": "/vehicles/ferrovore_fd25/textures/fd25_steel_nm.normal.png"
+   },
+   {},
+   {},
+   {}
+  ],
+  "dynamicCubemap": true,
+  "materialTag0": "beamng",
+  "materialTag1": "vehicle",
+  "version": 1.5
+ },
+ "fd25_steel_dark": {
+  "name": "fd25_steel_dark",
+  "mapTo": "fd25_steel_dark",
+  "class": "Material",
+  "Stages": [
+   {
+    "baseColorMap": "/vehicles/ferrovore_fd25/textures/fd25_steel_dark_b.color.png",
+    "roughnessMap": "/vehicles/ferrovore_fd25/textures/fd25_steel_dark_r.data.png",
+    "metallicMap": "/vehicles/ferrovore_fd25/textures/fd25_steel_dark_m.data.png",
+    "normalMap": "/vehicles/ferrovore_fd25/textures/fd25_steel_dark_nm.normal.png"
+   },
+   {},
+   {},
+   {}
+  ],
+  "dynamicCubemap": true,
+  "materialTag0": "beamng",
+  "materialTag1": "vehicle",
+  "version": 1.5
+ },
+ "fd25_track": {
+  "name": "fd25_track",
+  "mapTo": "fd25_track",
+  "class": "Material",
+  "Stages": [
+   {
+    "baseColorMap": "/vehicles/ferrovore_fd25/textures/fd25_track_b.color.png",
+    "roughnessMap": "/vehicles/ferrovore_fd25/textures/fd25_track_r.data.png",
+    "metallicMap": "/vehicles/ferrovore_fd25/textures/fd25_track_m.data.png",
+    "normalMap": "/vehicles/ferrovore_fd25/textures/fd25_track_nm.normal.png"
+   },
+   {},
+   {},
+   {}
+  ],
+  "dynamicCubemap": true,
+  "materialTag0": "beamng",
+  "materialTag1": "vehicle",
+  "version": 1.5
+ },
+ "fd25_grating": {
+  "name": "fd25_grating",
+  "mapTo": "fd25_grating",
+  "class": "Material",
+  "Stages": [
+   {
+    "baseColorMap": "/vehicles/ferrovore_fd25/textures/fd25_grating_b.color.png",
+    "roughnessMap": "/vehicles/ferrovore_fd25/textures/fd25_grating_r.data.png",
+    "metallicMap": "/vehicles/ferrovore_fd25/textures/fd25_grating_m.data.png",
+    "normalMap": "/vehicles/ferrovore_fd25/textures/fd25_grating_nm.normal.png"
+   },
+   {},
+   {},
+   {}
+  ],
+  "dynamicCubemap": true,
+  "materialTag0": "beamng",
+  "materialTag1": "vehicle",
+  "version": 1.5
+ },
+ "fd25_chrome": {
+  "name": "fd25_chrome",
+  "mapTo": "fd25_chrome",
+  "class": "Material",
+  "Stages": [
+   {
+    "baseColorMap": "/vehicles/ferrovore_fd25/textures/fd25_chrome_b.color.png",
+    "roughnessMap": "/vehicles/ferrovore_fd25/textures/fd25_chrome_r.data.png",
+    "metallicFactor": 1.0,
+    "normalMap": "/vehicles/ferrovore_fd25/textures/fd25_chrome_nm.normal.png"
+   },
+   {},
+   {},
+   {}
+  ],
+  "dynamicCubemap": true,
+  "materialTag0": "beamng",
+  "materialTag1": "vehicle",
+  "version": 1.5
+ },
+ "fd25_rubber": {
+  "name": "fd25_rubber",
+  "mapTo": "fd25_rubber",
+  "class": "Material",
+  "Stages": [
+   {
+    "baseColorMap": "/vehicles/ferrovore_fd25/textures/fd25_rubber_b.color.png",
+    "roughnessMap": "/vehicles/ferrovore_fd25/textures/fd25_rubber_r.data.png",
+    "metallicFactor": 0.0,
+    "normalMap": "/vehicles/ferrovore_fd25/textures/fd25_rubber_nm.normal.png"
+   },
+   {},
+   {},
+   {}
+  ],
+  "dynamicCubemap": true,
+  "materialTag0": "beamng",
+  "materialTag1": "vehicle",
+  "version": 1.5
+ },
+ "fd25_black": {
+  "name": "fd25_black",
+  "mapTo": "fd25_black",
+  "class": "Material",
+  "Stages": [
+   {
+    "baseColorMap": "/vehicles/ferrovore_fd25/textures/fd25_black_b.color.png",
+    "roughnessMap": "/vehicles/ferrovore_fd25/textures/fd25_black_r.data.png",
+    "metallicFactor": 0.0,
+    "normalMap": "/vehicles/ferrovore_fd25/textures/fd25_black_nm.normal.png"
+   },
+   {},
+   {},
+   {}
+  ],
+  "dynamicCubemap": true,
+  "materialTag0": "beamng",
+  "materialTag1": "vehicle",
+  "version": 1.5
+ },
+ "fd25_cyl_paint": {
+  "name": "fd25_cyl_paint",
+  "mapTo": "fd25_cyl_paint",
+  "class": "Material",
+  "Stages": [
+   {
+    "baseColorMap": "/vehicles/ferrovore_fd25/textures/fd25_cyl_paint_b.color.png",
+    "instanceBaseColor": true,
+    "roughnessMap": "/vehicles/ferrovore_fd25/textures/fd25_cyl_paint_r.data.png",
+    "metallicFactor": 0,
+    "clearCoatFactor": 0.3
+   },
+   {
+    "baseColorFactor": [
+     0.3,
+     0.26,
+     0.21,
+     1
+    ],
+    "opacityMap": "/vehicles/ferrovore_fd25/textures/fd25_cyl_grime_o.data.png",
+    "roughnessFactor": 0.9,
+    "metallicFactor": 0
+   },
+   {},
+   {}
+  ],
+  "dynamicCubemap": true,
+  "materialTag0": "beamng",
+  "materialTag1": "vehicle",
+  "version": 1.5,
+  "activeLayers": 2
+ },
+ "fd25_glass": {
+  "name": "fd25_glass",
+  "mapTo": "fd25_glass",
+  "class": "Material",
+  "Stages": [
+   {
+    "baseColorMap": "/vehicles/ferrovore_fd25/textures/fd25_glass_b.color.png",
+    "metallicFactor": 0.6,
+    "roughnessFactor": 0.05,
+    "opacityMap": "/vehicles/ferrovore_fd25/textures/fd25_glass_o.data.png"
+   },
+   {},
+   {},
+   {}
+  ],
+  "dynamicCubemap": true,
+  "materialTag0": "beamng",
+  "materialTag1": "vehicle",
+  "version": 1.5,
+  "castShadows": false,
+  "translucent": true,
+  "translucentBlendOp": "PreMulAlpha",
+  "translucentRecvShadows": true
+ },
+ "fd25_glass_int": {
+  "name": "fd25_glass_int",
+  "mapTo": "fd25_glass_int",
+  "class": "Material",
+  "Stages": [
+   {
+    "baseColorMap": "/vehicles/ferrovore_fd25/textures/fd25_glass_b.color.png",
+    "metallicFactor": 0.6,
+    "roughnessFactor": 0.05,
+    "opacityFactor": 0.08
+   },
+   {},
+   {},
+   {}
+  ],
+  "dynamicCubemap": true,
+  "materialTag0": "beamng",
+  "materialTag1": "vehicle",
+  "version": 1.5,
+  "castShadows": false,
+  "translucent": true,
+  "translucentBlendOp": "PreMulAlpha",
+  "translucentRecvShadows": true
+ },
+ "fd25_lamp": {
+  "name": "fd25_lamp",
+  "mapTo": "fd25_lamp",
+  "class": "Material",
+  "Stages": [
+   {
+    "baseColorFactor": [
+     0.82,
+     0.82,
+     0.8,
+     1
+    ],
+    "roughnessFactor": 0.08,
+    "metallicFactor": 0.3,
+    "normalMap": "/vehicles/ferrovore_fd25/textures/fd25_lamp_nm.normal.png"
+   },
+   {},
+   {},
+   {}
+  ],
+  "dynamicCubemap": true,
+  "materialTag0": "beamng",
+  "materialTag1": "vehicle",
+  "version": 1.5
+ },
+ "fd25_lamp_on": {
+  "name": "fd25_lamp_on",
+  "mapTo": "fd25_lamp_on",
+  "class": "Material",
+  "Stages": [
+   {
+    "baseColorFactor": [
+     0.95,
+     0.95,
+     0.92,
+     1
+    ],
+    "roughnessFactor": 0.08,
+    "metallicFactor": 0.3,
+    "normalMap": "/vehicles/ferrovore_fd25/textures/fd25_lamp_nm.normal.png",
+    "emissiveMap": "/vehicles/ferrovore_fd25/textures/fd25_lamp_g.color.png",
+    "emissiveFactor": [
+     1,
+     1,
+     1
+    ],
+    "emissiveIntensityNits": 9000
+   },
+   {},
+   {},
+   {}
+  ],
+  "dynamicCubemap": true,
+  "materialTag0": "beamng",
+  "materialTag1": "vehicle",
+  "version": 1.5
+ },
+ "fd25_beacon": {
+  "name": "fd25_beacon",
+  "mapTo": "fd25_beacon",
+  "class": "Material",
+  "Stages": [
+   {
+    "baseColorFactor": [
+     0.95,
+     0.42,
+     0.03,
+     1
+    ],
+    "roughnessFactor": 0.15,
+    "metallicFactor": 0,
+    "opacityFactor": 0.85
+   },
+   {},
+   {},
+   {}
+  ],
+  "dynamicCubemap": true,
+  "materialTag0": "beamng",
+  "materialTag1": "vehicle",
+  "version": 1.5,
+  "translucent": true,
+  "translucentBlendOp": "PreMulAlpha"
+ },
+ "fd25_beacon_on": {
+  "name": "fd25_beacon_on",
+  "mapTo": "fd25_beacon_on",
+  "class": "Material",
+  "Stages": [
+   {
+    "baseColorFactor": [
+     1.0,
+     0.55,
+     0.05,
+     1
+    ],
+    "roughnessFactor": 0.15,
+    "metallicFactor": 0,
+    "emissiveFactor": [
+     1.0,
+     0.5,
+     0.05
+    ],
+    "emissiveIntensityNits": 12000
+   },
+   {},
+   {},
+   {}
+  ],
+  "dynamicCubemap": true,
+  "materialTag0": "beamng",
+  "materialTag1": "vehicle",
+  "version": 1.5
+ },
+ "fd25_decals": {
+  "name": "fd25_decals",
+  "mapTo": "fd25_decals",
+  "class": "Material",
+  "Stages": [
+   {
+    "baseColorMap": "/vehicles/ferrovore_fd25/textures/fd25_decals_b.color.png",
+    "opacityMap": "/vehicles/ferrovore_fd25/textures/fd25_decals_o.data.png",
+    "roughnessFactor": 0.55,
+    "metallicFactor": 0
+   },
+   {},
+   {},
+   {}
+  ],
+  "dynamicCubemap": true,
+  "materialTag0": "beamng",
+  "materialTag1": "vehicle",
+  "version": 1.5,
+  "translucent": true,
+  "translucentZWrite": true,
+  "translucentRecvShadows": true
+ }
+}

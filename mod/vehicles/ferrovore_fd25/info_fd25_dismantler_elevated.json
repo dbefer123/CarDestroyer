@@ -1,0 +1,38 @@
+{
+  "Configuration": "Car Dismantler (Elevated Cab)",
+  "Description": "Dismantler with the operator cab raised 0.95 m on a riser for a better view into the car body.",
+  "Config Type": "Factory",
+  "Value": 402000,
+  "Population": 2,
+  "Drivetrain": "Tracked (hydrostatic)",
+  "Transmission": "Hydrostatic",
+  "Fuel Type": "Diesel",
+  "Propulsion": "ICE",
+  "Induction Type": "Turbo",
+  "Power": 174,
+  "PowerPeakRPM": "1950 - 2050",
+  "Torque": 790,
+  "TorquePeakRPM": "1400 - 1600",
+  "Weight": 28444,
+  "Top Speed": 1.528,
+  "Off-Road Score": 95,
+  "Years": {
+    "min": 2024,
+    "max": 2026
+  },
+  "BoundingBox": [
+    [
+      -1.485,
+      -6.023,
+      0.0
+    ],
+    [
+      1.485,
+      2.75,
+      5.979
+    ]
+  ],
+  "defaultPaintName1": "Safety Orange",
+  "defaultPaintName2": "Safety Orange",
+  "defaultPaintName3": "Industrial Grey"
+}

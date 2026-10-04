@@ -1,0 +1,38 @@
+{
+  "Configuration": "Shear Only (No Clamp Arm)",
+  "Description": "Dismantler without the front clamp arm, for yards that hold the car with a second machine.",
+  "Config Type": "Factory",
+  "Value": 352000,
+  "Population": 2,
+  "Drivetrain": "Tracked (hydrostatic)",
+  "Transmission": "Hydrostatic",
+  "Fuel Type": "Diesel",
+  "Propulsion": "ICE",
+  "Induction Type": "Turbo",
+  "Power": 174,
+  "PowerPeakRPM": "1950 - 2050",
+  "Torque": 790,
+  "TorquePeakRPM": "1400 - 1600",
+  "Weight": 26694,
+  "Top Speed": 1.528,
+  "Off-Road Score": 95,
+  "Years": {
+    "min": 2024,
+    "max": 2026
+  },
+  "BoundingBox": [
+    [
+      -1.485,
+      -6.023,
+      0.0
+    ],
+    [
+      1.485,
+      2.75,
+      5.979
+    ]
+  ],
+  "defaultPaintName1": "Weathered Yellow",
+  "defaultPaintName2": "Weathered Yellow",
+  "defaultPaintName3": "Industrial Grey"
+}
